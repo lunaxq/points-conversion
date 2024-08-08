@@ -1,7 +1,9 @@
+import { Button } from 'antd-mobile'
+
 export default function HomePage() {
   return (
-    <div>
+    <Button>
       hello, world!
-    </div>
+    </Button>
   );
 }
