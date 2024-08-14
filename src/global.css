@@ -28,10 +28,36 @@
     font-weight: 500;
   }
 
+  /* SideBar */
   .adm-side-bar-item-highlight {
     width: 4px;
     height: 16px;
     top: 3px;
     border-radius: 0px;
+  }
+
+  /* CapsuleTabs */
+  .adm-capsule-tabs-header {
+    padding: 0px;
+    border-bottom: none;
+  }
+
+  .adm-capsule-tabs-tab-wrapper {
+    padding: 0 4px;
+  }
+
+  .adm-capsule-tabs-tab {
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 8px;
+    background-color: var(--pcm-gray-7);
+    color: var(--pcm-gray-3);
+  }
+
+  .adm-capsule-tabs-tab-active {
+    background-color: var(--pcm-primary-lightest);
+    color: var(--pcm-primary);
+    font-weight: 500;
   }
 }
